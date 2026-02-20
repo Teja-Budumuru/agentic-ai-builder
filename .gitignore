@@ -1,0 +1,13 @@
+
+node_modules/
+main.js
+packages/model/db/dist/
+packages/model/db/generated/prisma/
+packages/model/db/prisma/migrations/
+packages/model/dist/
+packages/model/llm/index.js
+packages/model/llm/tsconfig.tsbuildinfo
+packages/model/llm/utils.js
+packages/model/types.js
+.env
+.env.local
