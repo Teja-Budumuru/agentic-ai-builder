@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
 import path from "path";
 
 const nextConfig: NextConfig = {
+  // allow importing files outside the `apps/web` directory (monorepo support)
+  experimental: { externalDir: true },
   serverExternalPackages: ["@prisma/client", "@prisma/adapter-pg", "pg"],
   turbopack: {
     resolveAlias: {
