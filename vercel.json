@@ -1,6 +1,8 @@
 {
   "version": 3,
-  "project": {
-    "rootDirectory": "apps/web"
+  "projects": {
+    "web": {
+      "rootDirectory": "apps/web"
+    }
   }
 }
